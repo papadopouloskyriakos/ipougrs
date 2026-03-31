@@ -70,7 +70,7 @@ IPoUGRS is formally registered as a bearer type in the HeMB
 - RFC draft written (RFCXML v3, validated with xml2rfc)
 - Submitted to ISE: March 11, 2026
 - ISE response: positive, resubmit January 2027
-- Project page: kyriakos.papadopoulos.tech/projects/ipougrs/
+- RFC draft: [draft-papadopoulos-ipougrs-00.html](https://kyriakos.papadopoulos.tech/ipougrs/draft-papadopoulos-ipougrs-00.html)
 - Hardware PoC: SIM800L x 34, arriving April 2026
 - Demo video: post hardware build
 - RFC resubmission: January 5, 2027
