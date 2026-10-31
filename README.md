@@ -53,18 +53,6 @@ On VoLTE networks, ring cycles are approximately 640ms (2s ring,
 4s silence = 3s cycle). Shorter cycles are achievable on some
 carriers by calling and immediately timing out.
 
-## IPoUGRS as a HeMB Bearer
-
-IPoUGRS is formally registered as a bearer type in the HeMB
-(Heterogeneous Media Bonding) protocol
-([draft-papadopoulos-hemb-00](https://github.com/papadopouloskyriakos/hemb)):
-
-- MTU: 1 byte per slot
-- Cost: EUR 0
-- Loss rate: ~30%
-- Latency: 8.000ms per byte
-- Role: last-resort bearer when all data channels fail
-
 ## Status
 
 - RFC draft written (RFCXML v3, validated with xml2rfc)

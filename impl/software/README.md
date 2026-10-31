@@ -20,18 +20,6 @@ BinaryCapable: true
 MaxPayload:    1    (1 byte per slot)
 ```
 
-### HeMB Bearer Profile
-
-IPoUGRS as a HeMB bearer:
-```
-MTU:           1
-CostPerMsg:    0
-LossRate:      0,30
-LatencyMs:     8000
-HeaderMode:    "implicit" (no per-slot header — session pre-negotiated)
-RelayCapable:  false (single-hop only)
-```
-
 ### Gateway Implementation
 
 TODO: `internal/gateway/ipougrs_gateway.go`
